@@ -1,0 +1,20 @@
+.product-img {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-item:hover .product-img {
+  transform: scale(1.1); /* Hiệu ứng zoom in khi hover */
+}
+
+.product-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.product-price {
+  color: #d9534f; /* Màu đỏ nổi bật */
+  font-weight: bold;
+}
